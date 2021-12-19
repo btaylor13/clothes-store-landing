@@ -1,9 +1,9 @@
 // Colors
 $colors: (
   primary: #333,
-  secondary: #ffe,
+  secondary: rgb(226, 226, 222),
   tertiary: #f2f0f1,
-  quaternary: #f5b149,
+  quaternary: lightgray,
 );
 
 @function color($color-name) {

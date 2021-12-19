@@ -6,5 +6,9 @@
   &-img {
     width: 10rem;
     height: 100%;
+
+    @include response(sm) {
+      width: 4.7rem;
+    }
   }
 }
